@@ -1,0 +1,174 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Quicksand;
+	font-weight: 700;
+	color: #3f3f3f;
+}
+
+.nav {
+	height: 100px;
+	background: #e4e4e4;
+	display: flex;
+    justify-content: center;
+}
+
+.nav__item {
+	display: flex;
+    width: 40%;
+	justify-content: space-evenly;
+	list-style-type: none;
+	align-items: center;
+	font-size: 25px;
+}
+
+.wrapper {
+	display: flex;
+}
+
+.wrapper--panel {
+	height: 600px;
+}
+
+.card {
+	width: 33.3%;
+    background: chocolate;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+	height: inherit;
+	align-items: center;
+}
+
+.card-darkgray {
+	background: #984b13;
+}
+
+.card-lightgray {
+	background:#da996b;
+}
+
+.card__item {
+	width: 100px;
+}
+.card__text {
+	margin: 20px;
+    color: #e0e0e0;
+}
+
+.wrapper--text{
+	flex-direction: column;
+	justify-content: space-evenly;													
+	height: 500px;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	margin: 40px;
+}
+
+.text-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.text {
+	width: 40%;
+	margin: 20px;
+	text-align: justify;
+}
+
+.list-section {
+	width: 40%;
+	margin-left: 40px;
+}
+
+.wrapper--gallery {
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+    height: 500px;
+}
+
+.gallery {
+	display: flex;
+    height: 400px;
+    width: 90%;
+    background: #de9723;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.gallery__icon {
+	height: 80px;
+	margin: 20px;
+}
+
+.form {
+	display: flex;
+	width: 50%;
+    height: 500px;
+	flex-direction: column;
+    padding: 0 3%;
+}
+
+.input {
+	height: 60px;
+	margin: 10px 0;
+    background: #de9723;
+    border: none;
+}
+
+.input--textarea {
+	height: 200px;
+}
+
+.wrapper--form {
+	padding: 2%;
+}
+
+.checkbox {
+	display: flex;
+	font-size: 18px;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.checkbox__input {
+	opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.checkbox__mark {
+	display: flex;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	border: 2px solid #3f3f3f;
+	margin-right: 20px;
+}
+
+.checkbox__mark--text {
+	margin: 0 10px;
+
+}
+
+.button {
+	height: 60px;
+    width: 50%;
+    border: none;
+    background: #3f3f3f;
+	align-self: flex-end;
+	margin: 20px 0;
+}
+.footer {
+        height: 100px;
+        background: #3f3f3f;
+        display: flex;
+        justify-content: center;
+}
